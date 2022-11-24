@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+  div#personal_nav_responsive {
+    display: flex !important;
+    gap: 125%;
+    margin-left: 500;
+   
+  }
+}
+i {
+  font-size: 20px;
+}
+.fixed-top {
+  
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}

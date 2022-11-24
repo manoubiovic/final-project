@@ -1,0 +1,99 @@
+.acceuil {
+  /* background-image: url("/public/home.jpg"); */
+
+  min-height: calc(100vh - 15vh);
+}
+.acceuil h1 {
+  padding: 15vh;
+  margin-left: 20vh;
+  color: rgb(255, 98, 20);
+}
+.acceuil h3 {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-left: 30vh;
+}
+img.img_logo {
+  width: 120px;
+}
+.bloc_home {
+  margin-top: 8%;
+}
+.categorie_services {
+  display: flex;
+  justify-content: center;
+}
+.blocat1 {
+  background-color: #f48741;
+}
+.blocat2 {
+  background-color: #ff9124;
+}
+.blocat3 {
+  background-color: #f8b334;
+}
+.blocat4 {
+  background-color: #ffc160;
+}
+.fond {
+  position: absolute;
+  padding-top: 85px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00506b;
+}
+
+.style_prevu_kit {
+  display: inline-block;
+  border: 0;
+  width: 196px;
+  height: 210px;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.style_prevu_kit:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+h1.cat_title {
+  font-size: x-large;
+  text-align: center;
+  margin: 21% 20px;
+  height: 60%;
+  color: white;
+  border: 5px solid;
+}
+h1.cat_title a {
+  text-decoration: none;
+  color: white;
+}
+.form-control{
+  height: 30px;
+  width: 200px;
+
+}
+#formName{
+  background-color: aqua;
+}
+.contact-home{
+    height: 30px;
+  width: 600px;
+}

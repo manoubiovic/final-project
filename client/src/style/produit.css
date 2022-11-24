@@ -1,0 +1,122 @@
+.articles {
+  text-align: center;
+  padding: 10vh;
+}
+.articles {
+  display: flex;
+}
+.articles_details {
+  margin: 10% 10% 0 10%;
+  text-align: center;
+}
+.stylebtn {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(139, 58, 58);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.stylebtn :hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.stylebtn :active {
+  box-shadow: inset -2px -2px 3px rgba(109, 35, 35, 0.6),
+    inset 2px 2px 3px rgba(170, 21, 21, 0.6);
+}
+img.image_product {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 75px;
+}
+.cardCam {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 60px;
+  margin: 40px;
+  box-shadow: 12px 17px 41px black;
+  width: 500px;
+}
+
+.card_width {
+  width: 18rem;
+}
+.banner {
+  max-width: 1050px;
+  max-height: 300px;
+  text-align: center;
+  border: 2px solid #f0f0f0;
+
+  margin: auto;
+  margin-top: 50px; /*delete this*/
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.banner-text {
+  font-family: lato;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.banner-header {
+  font-family: lato;
+  font-size: 3.5em;
+}
+
+.btn-danger.btn-outline {
+  margin-top: 10px;
+  background-color: transparent;
+  color: #d9534f;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: lato;
+  font-weight: 300;
+}
+
+.product_wrap_listing {
+  margin-top: 10%;
+}
+.produit_vente{
+  margin-top: 15%;
+  display:flex !important;
+  justify-content: center;
+
+}
+ #profil{
+  background-color: rgb(217, 29, 29);
+}
+.fa {
+  background-color: yellow !important;
+ }
+.product_page_listing{
+  margin-top: 80px;
+} 
+#profile{
+  background-color: rgb(21, 180, 87);
+  height: 100%;
+  width: 95%;
+}
+#favourite{
+  background-color: rgb(196, 14, 47);
+  height: 100%;
+  width: 95%;
+}
+#code{
+  background-color: blue;
+  height: 100%;
+  width: 95%;
+}

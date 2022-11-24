@@ -1,0 +1,20 @@
+/* .sb {
+  text-align: center;
+  padding: 20vh;
+  width: "30%";
+  height: "10vh";
+  box-shadow: 12px 17px 41px black !important;
+          margin-left: 5%;
+    margin-top: 147px;
+} */
+.search_all{
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 70%!important;
+  margin-left: 18%;
+ }
+#button-addon2{
+  margin-top: 20px!important;
+  width:100px !important;
+  height: 30px !important;
+}
